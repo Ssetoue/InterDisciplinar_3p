@@ -132,7 +132,7 @@
 }
 
 .btn-back-next{
-   margin-top: 8%;
+   margin-top: 5%;
    background-color: #111827;
    width: 90%;
    border-radius: 20px ;
@@ -152,6 +152,7 @@
    background-color: #0a0f1b;
 }
 .btn-back-next button:hover{
+   transition: 0.4s;
    scale: 1.1;
    border: 1px solid white;
 }
