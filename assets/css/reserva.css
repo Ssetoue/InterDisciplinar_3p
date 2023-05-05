@@ -1,0 +1,65 @@
+.conteudo-filme{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.filme-img{
+   height: 300px;
+   margin: 35px;
+}
+
+.box-image{
+   width: 200px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 10px black;
+}
+.box-title{
+   font-size: 1rem;
+   color: #cbcfd8;
+}
+
+.container-option{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+
+.opcao{
+   width: 90%;
+   display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+   grid-auto-rows: 200px;
+}
+.opcao button{
+   border-radius: 10px ;
+   margin: 30px;
+   background-color: #1b222c;
+   font-size: 20px;
+   color: #cbcfd8;
+}
+.opcao button:hover{
+   scale: 1.2;
+   transition: all .3s ease;
+   border: solid 2px #cbcfd8;
+}
+
+.conteudo-opcao{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: aquamarine;
+   width: 100%;
+   height: 100%;
+}
+
+.escolher-cadeira{
+   background-color: red;
+   width: 90%;
+   height: 70%;
+
+}
