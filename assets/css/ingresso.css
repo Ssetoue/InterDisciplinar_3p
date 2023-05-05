@@ -20,7 +20,7 @@
 }
 .conteudo-film img{
    border-radius: 10px;
-   width: 350px;
+   width: 250px;
    box-shadow: 5px 5px 15px black;
 }
 
@@ -60,17 +60,20 @@
    justify-content: center;
    align-items: center;
    border-bottom: 2px solid white;
-   padding: 40px;
+   padding: auto;
+   margin: 2% 0;
 }
 .ingresso h1{
-   font-size: 32px;
-   margin: 30px;
+   font-size: 24px;
+   margin: 25px;
    width: 100%;
+
 }
 .ingresso h3{
-   margin: 10px;
-   width: 300px;
-   font-size: 24px;
+   margin-bottom: 20px;
+   width: 50%;
+   font-size: 14px;
+
 }
 .i-3{
    border: none;
