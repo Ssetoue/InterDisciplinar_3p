@@ -16,11 +16,11 @@
 }
 .conteudo-regra{
    text-align: center;
-   width: 100%;
+   width: 400px;
 }
 .conteudo-regra img{
    border-radius: 10px;
-   width: 350px;
+   width: 300px;
    box-shadow: 5px 5px 15px black;
 }
 .conteudo{
@@ -52,4 +52,28 @@ input{
    height: 45px;
    border-radius: 10px;
    padding: 15px;
+}
+
+@media only screen and (max-width: 980px){
+   .conteudo-regra img{
+      width: 200px;
+   }
+   .conteudo-registro label{
+      font-size: 25px ;
+      padding: 10px;
+     }
+   .conteudo-registro input{
+      width: 70%;
+      height: 30px;
+      font-size: 18px;
+   }
+}
+
+@media only screen and (max-width: 600px){
+   .conteudo-regra img{
+      width: 155px;
+   }
+   .conteudo-registro label{
+      font-size: 20px ;
+   }
 }
